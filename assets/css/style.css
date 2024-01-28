@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1366px;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  flex: 0.75;
+  padding: 20px;
+  border: #bec1bb solid 1px;
+}
+
+.perfil {
+  width: 50px;
+  border-radius: 100px;
+}
+
+li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.shadow {
+  color: #bec1bb;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.fontawesome {
+  margin-left: 100px;
+}
+
+i {
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  margin-bottom: 40px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #a491d2;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+}
+
+.chat1 {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.chat2 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.chat3 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.chat4 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.chat5 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.chat6 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.chat7 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.chat8 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.foto {
+  width: 80px;
+  border-radius: 100px;
+}
+
+/* Seccion 2 */
+
+article {
+  flex: 2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.hands {
+  width: 250px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+span {
+  font-weight: bold;
+}
